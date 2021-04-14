@@ -1,0 +1,90 @@
+POST http://localhost:3000/api/example/test
+content-type: application/json
+
+{
+    "test": "Test"
+}
+
+###
+PUT http://localhost:3000/api/registration/projectRegistration/update
+
+{
+    "name":"google11111",
+    "description":"send",
+    "features": [{
+        "name" : "name", 
+        "level" : "level",
+        "description": "description",
+        "maxestimate": 3,
+        "minEstimate" : 1
+    }]
+ }
+###
+PUT http://localhost:3000/api/registration/projectRegistration/update
+content-type: application/json
+
+{
+    "_id": "5fbb836ceccf550d345a141a",
+    "name":"google update1111",
+    "description":"description",
+    "features": [{
+        "name" : "name", 
+        "level" : "level",
+        "description": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    }]
+}
+
+###
+PUT http://localhost:3000/api/project
+content-type: application/json
+ 
+ {
+     "_id": "5fdb787affd01611d4d04fc5",
+    "name":"avtodiller",
+    "description":"avto",
+    "features": [{
+        "featureName" : "skoda", 
+        "level" : "1",
+        "escription": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    },
+    {
+        "featureName" : "octavia", 
+        "level" : "1.1",
+        "description": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    },
+    {
+        "featureName" : "nissan", 
+        "level" : "1.1.1",
+        "description": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    },
+    {
+        "featureName" : "mitsubishi", 
+        "level" : "2",
+        "description": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    },
+    {
+        "featureName" : "lancer", 
+        "level" : "2.1",
+        "description": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    },
+    {
+        "featureName" : "mazda", 
+        "level" : "3",
+        "description": "description",
+        "maxestimate": 3 ,
+        "minEstimate" : 1
+    }
+    ]
+}
